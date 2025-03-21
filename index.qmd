@@ -1,0 +1,37 @@
+---
+title: "Home"
+---
+
+## About Me
+
+::::: {style="display: flex; margin-top: 0;"}
+::: {style="flex: 1; padding-right: 20px; padding-top: 10px;"}
+![](Angus Greaves.png){fig-align="left"}
+:::
+
+::: {style="flex: 1; padding-left: 20px; padding-top: 10px;"}
+I am a current MPhil in Economics at the University of Oxford, with research interests in labour economics, and political economy.
+
+I graduate early July 2026, hopefully into a US predoc position.
+:::
+:::::
+
+## Latest Research
+
+::::: {style="display: flex;"}
+::: {style="flex: 1; padding-left: 20px; padding-right: 20px;"}
+### Title of Paper 1
+
+This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper.
+
+[Read full paper here](https://www.google.co.uk/){.btn .btn-dark .btn role="button" style="width:300px;" target="_blank;"}
+:::
+
+::: {style="flex: 1; padding-left: 20px; padding-right: 20px;"}
+### Title of Paper 2
+
+This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper.
+
+[Read full paper here](https://www.google.co.uk/){.btn .btn-dark .btn role="button" style="width:300px;" target="_blank;"}
+:::
+:::::

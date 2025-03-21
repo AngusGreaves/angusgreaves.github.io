@@ -1,0 +1,24 @@
+---
+title: "Research"
+---
+
+## Working Papers
+
+### Political Economy:
+
+### Labour:
+ *add link to CV*
+
+::::: {style="display: flex; margin-top: 0;"}
+::: {style="flex: 1; padding-right: 20px; padding-top: 10px;"}
+[Curriculum Vitae](){.btn .btn-dark .btn role="button" style="width:300px;" target="_blank;"}
+
+[Google Scholar](https://www.google.co.uk/){.btn .btn-dark .btn role="button" style="width:300px;" target="_blank;"}
+:::
+
+::: {style="flex: 1; padding-left: 20px; padding-top: 10px;"}
+[IDEAS/RePEc](https://ideas.repec.org/f/pgr752.html){.btn .btn-dark .btn role="button" style="width:300px;" target="_blank;"}
+
+[SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=6598097){.btn .btn-dark .btn role="button" style="width:300px;" target="_blank;"}
+:::
+:::::

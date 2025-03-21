@@ -1,0 +1,11 @@
+---
+title: "Guides"
+---
+
+R for Predocs & PhDs
+
+Graduate Causal Inference
+
+Graduate Econometrics
+
+Machine Learning for Economists

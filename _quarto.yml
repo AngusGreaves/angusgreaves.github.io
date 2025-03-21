@@ -1,0 +1,57 @@
+project:
+  type: website
+
+website:
+  title: "![](logo_navbar.png){width=30} Angus Greaves"
+  twitter-card: true # some info is included when site is in a tweet (can customise)
+  favicon: logo_black.png # logo for browser tabs 
+  navbar:
+    pinned: true
+    search: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - text: Guides
+        menu:
+          - text: R for Predocs (& PhDs)
+          - text: Graduate Econmetrics
+          - text: Machine Learning for Economists
+    right:
+    - icon: twitter
+      href: https://twitter.com/angus_greaves
+      target: _blank
+    - text: "{{< fa brands bluesky  size = lg >}}"
+      href: https://bsky.app/profile/angusgreaves.bsky.social
+      target: _blank
+    - icon: linkedin
+      href: https://www.linkedin.com/in/angus-greaves/
+      target: _blank
+    - icon: file-earmark-person-fill
+      href: https://www.economics.ox.ac.uk/people/angus-greaves # insert link to my CV
+      target: _blank
+    - icon: google
+      href: https://scholar.google.co.uk/ # edit to my google scholar page
+      target: _blank        
+    - icon: github
+      href: https://github.com/AngusGreaves
+      target: _blank
+  
+  page-footer: 
+    left: "{{< fa regular copyright >}} 2025, Angus Greaves"
+    right: 'Report a bug' # add a link here to relevent github files
+    background: floralwhite
+
+format:
+  html:
+    theme:
+      - sandstone
+      - brand
+    backgroundcolor: floralwhite
+    css: styles.css
+    toc: false
+
+editor: visual
+
+

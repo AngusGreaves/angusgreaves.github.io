@@ -1,0 +1,17 @@
+{
+  "hash": "7031996ca755a2add53b02ea0c5be224",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: About Me\n---\n\n\n\n#\n\n:::: {.columns}\n\n::: {.column width=\"40%\"}\n\n![Change to a pic of me](logo_black.png){fig-align=\"left\"} \n:::\n\n::: {.column width=\"10%\"}\n\n:::\n\n::: {.column width=\"40%\"}\nI am a current MPhil in Economics at the University of Oxford, with research interests in political economy, and labour economics. I graduate early July 2026.\n\n:::\n\n::::\n\n\n*change colours*\n\n# Latest Research\n\n\n\n\n\n::: {.cell .column-screen-inset-shaded layout-nrow=\"1\"}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/echo- false-1.png){width=672}\n:::\n\n```{.r .cell-code}\nplot(iris)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/echo- false-2.png){width=672}\n:::\n\n```{.r .cell-code}\nplot(pressure)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/echo- false-3.png){width=672}\n:::\n:::\n\n\n\n\n*insert latest research in the style of the \"online courses\" section of the link below (i.e. title + abstract with the line separation)*\n\nhttps://wordpress.com/theme/annalee?tab_filter=education\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

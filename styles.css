@@ -1,0 +1,39 @@
+/* css styles */
+
+/* Make the navbar links bigger */
+/* Target navbar links and remove text transformation */
+.navbar-nav .nav-link {
+  text-transform: none !important;
+  font-size: 1rem; /* Adjust as desired */
+}
+
+/* Then reset icons so they don't inherit the larger font size */
+.navbar-nav .nav-link i,
+.navbar-nav .nav-link svg {
+  font-size: 1.1rem; /* or 1em, or whatever size you prefer */
+}
+
+/* Force the dropdown menu background color */
+.dropdown-menu {
+  background-color: #383c44 !important;
+}
+
+/* Target the dropdown header text */
+li.dropdown-header {
+  color: white !important;      /* your desired color */
+  text-transform: none !important; /* remove uppercase */
+}
+
+/* Remove titles from pages but keep in browser tabs */
+h1.title {
+  display: none !important;
+}
+
+
+
+/* (Optional) If you also want to enlarge the brand text "Angus Greaves": */
+/*
+.navbar-brand {
+  font-size: 1.5rem;
+}
+*/
