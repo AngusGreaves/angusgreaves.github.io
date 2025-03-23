@@ -12,7 +12,7 @@ title: "Research"
 
 ::::: {style="display: flex; margin-top: 0;"}
 ::: {style="flex: 1; padding-right: 20px; padding-top: 10px;"}
-[Curriculum Vitae](){.btn .btn-dark .btn role="button" style="width:300px;" target="_blank;"}
+[Curriculum Vitae](https://www.economics.ox.ac.uk/people/angus-greaves){.btn .btn-dark .btn role="button" style="width:300px;" target="_blank;"}
 
 [Google Scholar](https://www.google.co.uk/){.btn .btn-dark .btn role="button" style="width:300px;" target="_blank;"}
 :::
