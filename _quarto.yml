@@ -6,7 +6,7 @@ website:
   title: "![](logo_navbar.png){width=30} Angus Greaves"
   twitter-card: true # some info is included when site is in a tweet (can customise)
   favicon: logo_black.png # logo for browser tabs 
-  image: logo_metadata.png
+  image: "logo_metadata.png"
   open-graph: true
   navbar:
     pinned: true

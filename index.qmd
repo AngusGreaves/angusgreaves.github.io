@@ -6,7 +6,7 @@ title: "Home"
 
 ::::: {style="display: flex; margin-top: 0;"}
 ::: {style="flex: 1; padding-right: 20px; padding-top: 10px;"}
-![](Angus Greaves.png){fig-align="left"}
+![](Angus%20Greaves.png){fig-align="left"}
 :::
 
 ::: {style="flex: 1; padding-left: 20px; padding-top: 10px;"}
