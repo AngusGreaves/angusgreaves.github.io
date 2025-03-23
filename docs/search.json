@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "I am a current MPhil in Economics at the University of Oxford, with research interests in labour economics, and political economy.\nI graduate early July 2026, hopefully into a US predoc position."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home",
+    "section": "",
+    "text": "I am a current MPhil in Economics at the University of Oxford, with research interests in labour economics, and political economy.\nI graduate early July 2026, hopefully into a US predoc position."
+  },
+  {
+    "objectID": "index.html#latest-research",
+    "href": "index.html#latest-research",
+    "title": "Home",
+    "section": "Latest Research",
+    "text": "Latest Research\n\n\nTitle of Paper 1\nThis is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper.\nRead full paper here\n\n\nTitle of Paper 2\nThis is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper. This is some text describing the paper.\nRead full paper here"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "add link to CV\n\n\nCurriculum Vitae\nGoogle Scholar\n\n\nIDEAS/RePEc\nSSRN"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "",
+    "text": "add link to CV\n\n\nCurriculum Vitae\nGoogle Scholar\n\n\nIDEAS/RePEc\nSSRN"
+  },
+  {
+    "objectID": "guides.html",
+    "href": "guides.html",
+    "title": "Guides",
+    "section": "",
+    "text": "R for Predocs & PhDs\nGraduate Causal Inference\nGraduate Econometrics\nMachine Learning for Economists"
+  }
+]
