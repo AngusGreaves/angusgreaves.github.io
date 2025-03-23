@@ -33,7 +33,7 @@ website:
       href: https://www.linkedin.com/in/angus-greaves/
       target: _blank
     - icon: file-earmark-person-fill
-      href: https://angusgreaves.github.io/website/CV_AGreaves.pdf # insert link to my CV
+      href: https://angusgreaves.github.io/CV_AGreaves.pdf
       target: _blank
     - icon: google
       href: https://scholar.google.co.uk/ # edit to my google scholar page
