@@ -29,7 +29,10 @@ h1.title {
   display: none !important;
 }
 
-
+.navbar-logo {
+  min-height: 30px !important;
+  width: auto !important;
+}
 
 /* (Optional) If you also want to enlarge the brand text "Angus Greaves": */
 /*
