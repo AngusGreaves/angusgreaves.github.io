@@ -48,6 +48,8 @@ website:
 
 format:
   html:
+    html-head: |
+      <meta name="viewport" content="width=1024">
     theme:
       - sandstone
       - brand
@@ -55,6 +57,4 @@ format:
     css: styles.css
     toc: false
 
-editor: visual
-
-
+editor: source
