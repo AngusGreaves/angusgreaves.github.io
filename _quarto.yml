@@ -43,7 +43,9 @@ website:
       target: _blank
   
   page-footer: 
-    left: "{{< fa regular copyright >}} 2025, Angus Greaves"
+    left: |
+      {{< fa regular copyright >}} 2025, Angus Greaves   
+      Contact: angus.greaves[address sign]economics.ox.ac.uk
     right: 'Report a bug' # add a link here to relevent github files
     background: floralwhite
 
