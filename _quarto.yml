@@ -46,7 +46,9 @@ website:
     left: |
       {{< fa regular copyright >}} 2025, Angus Greaves   
       Contact: angus.greaves[address sign]economics.ox.ac.uk
-    right: 'Report a bug' # add a link here to relevent github files
+    right: 
+      - href: https://github.com/AngusGreaves/angusgreaves.github.io 
+        text: 'Report a bug' # add a link here to relevent github files
     background: floralwhite
 
 format:
