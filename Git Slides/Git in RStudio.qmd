@@ -1,0 +1,66 @@
+---
+title: "Git in RStudio"
+author: "Angus Greaves"
+format: revealjs
+execute: 
+  echo: true
+---
+
+# 1. Set-up
+
+## 1.1 Is Git Installed?
+
+1)  Open RStudio
+
+2)  Click on the "Terminal"
+
+3)  Type "which git"
+
+If Git is already installed you will get a directory outputted
+
+If Git is not installed (and you are a Mac user) type "git config" into terminal and follow prompts
+
+## 1.2 Configuration (within R)
+
+Computer scientists (and so most internet tutorials) do configuration of Git in the console.
+
+But you can do it in R!
+
+```{r}
+library(usethis)
+use_git_config(user.name = "Your Name",
+               user.email = "your@email.com")
+```
+
+If you already have a git/github account make sure you use the same login details
+
+# 2. Git & R Studio Basics
+
+## 2.1 Enabling Git on a Project
+
+Warning: will restart RStudio
+
+Tools \> Project Options \> Git/SVN Select Git as your "version control system"
+
+![](screenshot_git.png)
+
+## 2.2 Your First Commit
+1) One of the panes in R studio will have a git header (I have no idea which one as I moved mine from default); click on the git header.
+
+2) 
+
+
+
+## 3. Branches
+
+## 4. Merge Conflicts
+
+# 5. Other Resources:
+
+### 5.1 More information:
+
+https://happygitwithr.com/
+
+### 5.2: Video tutorial of these slides:
+
+https://www.youtube.com/watch?v=njMEXGfUQG8&list=PLKBUk9FL4nBbeUfO-DBtkrhpQ79nZVrrG
