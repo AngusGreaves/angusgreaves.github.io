@@ -19,8 +19,9 @@ website:
         text: Research
       - text: Guides
         menu:
-          - text: R for Predocs (& PhDs)
-          - text: Graduate Econmetrics
+          - text: Git in RStudio
+            href: git_slides/Git_in_RStudio.qmd
+          - text: Graduate Econometrics
           - text: Machine Learning for Economists
     right:
     - icon: twitter
