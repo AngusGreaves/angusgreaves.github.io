@@ -1,0 +1,9 @@
+For Angus (because he keeps forgetting)
+
+1) Make changes to website
+2) Render each page individually after the changes have been made
+3) Commit changes and push
+
+Optional: 
+4) Go to the repository on GitHub
+5) Click on actions - you will see pages build and development with either a green tick (website ready) or a yellow progress symbol (website updating)

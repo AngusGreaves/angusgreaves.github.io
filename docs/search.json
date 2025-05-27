@@ -319,7 +319,7 @@
     "href": "git_slides/Git_in_RStudio.html#merging-without-conflicts-2",
     "title": "Git in RStudio",
     "section": "4.1.3 Merging without Conflicts",
-    "text": "4.1.3 Merging without Conflicts\n\nIt is common practice to now delete the unneeded branch by going to the terminal and type git branch -d branch_name"
+    "text": "4.1.3 Merging without Conflicts\n\nIt is common practice to now delete the unneeded branch by going to the terminal and typing git branch -d branch_name"
   },
   {
     "objectID": "git_slides/Git_in_RStudio.html#merging-with-conflicts",
