@@ -21,6 +21,7 @@ website:
         menu:
           - text: Git in RStudio
             href: git_slides/Git_in_RStudio.qmd
+            target: _blank
           - text: Graduate Econometrics
           - text: Machine Learning for Economists
     right:
