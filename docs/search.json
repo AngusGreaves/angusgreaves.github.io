@@ -40,5 +40,47 @@
     "title": "Guides",
     "section": "",
     "text": "R for Predocs & PhDs\nGraduate Causal Inference\nGraduate Econometrics\nMachine Learning for Economists"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#is-git-installed",
+    "href": "Git Slides/Git in RStudio.html#is-git-installed",
+    "title": "Git in RStudio",
+    "section": "1.1 Is Git Installed?",
+    "text": "1.1 Is Git Installed?\n\nOpen RStudio\nClick on the “Terminal”\nType “which git”\n\nIf Git is already installed you will get a directory outputted\nIf Git is not installed (and you are a Mac user) type “git config” into terminal and follow prompts"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#configuration-within-r",
+    "href": "Git Slides/Git in RStudio.html#configuration-within-r",
+    "title": "Git in RStudio",
+    "section": "1.2 Configuration (within R)",
+    "text": "1.2 Configuration (within R)\nComputer scientists (and so most internet tutorials) do configuration of Git in the console.\nBut you can do it in R!\n\nlibrary(usethis)\nuse_git_config(user.name = \"Your Name\",\n               user.email = \"your@email.com\")\n\nIf you already have a git/github account make sure you use the same login details"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#enabling-git-on-a-project",
+    "href": "Git Slides/Git in RStudio.html#enabling-git-on-a-project",
+    "title": "Git in RStudio",
+    "section": "2.1 Enabling Git on a Project",
+    "text": "2.1 Enabling Git on a Project\nWarning: will restart RStudio\nTools &gt; Project Options &gt; Git/SVN Select Git as your “version control system”"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#your-first-commit",
+    "href": "Git Slides/Git in RStudio.html#your-first-commit",
+    "title": "Git in RStudio",
+    "section": "2.2 Your First Commit",
+    "text": "2.2 Your First Commit\n\nOne of the panes in R studio will have a git header (I have no idea which one as I moved mine from default); click on the git header.\nClick on the white boxes next to the items you wish to commit to your repository and have changes tracked\nPress commit ![]{screenshot_git_2.png} ##\nYou should now be in the staging area\nWrite a commit message (brief message, in present tense)\nPress commit"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#branches",
+    "href": "Git Slides/Git in RStudio.html#branches",
+    "title": "Git in RStudio",
+    "section": "3. Branches",
+    "text": "3. Branches"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#merge-conflicts",
+    "href": "Git Slides/Git in RStudio.html#merge-conflicts",
+    "title": "Git in RStudio",
+    "section": "4. Merge Conflicts",
+    "text": "4. Merge Conflicts"
   }
 ]
