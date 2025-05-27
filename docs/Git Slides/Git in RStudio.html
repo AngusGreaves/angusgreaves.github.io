@@ -242,28 +242,57 @@ Angus Greaves
 
 </section>
 <section id="enabling-git-on-a-project" class="slide level2">
-<h2>2.1 Enabling Git on a Project</h2>
+<h2>2.1.1 Enabling Git on a Project</h2>
 <p>Warning: will restart RStudio</p>
 <p>Tools &gt; Project Options &gt; Git/SVN Select Git as your “version control system”</p>
 
-<img data-src="screenshot_git_1.png" class="r-stretch"></section>
+<img data-src="1_screenshot_git.png" class="r-stretch"></section>
 <section id="your-first-commit" class="slide level2">
-<h2>2.2 Your First Commit</h2>
+<h2>2.2.1 Your First Commit</h2>
 <ol type="1">
 <li><p>One of the panes in R studio will have a git header (I have no idea which one as I moved mine from default); click on the git header.</p></li>
 <li><p>Click on the white boxes next to the items you wish to commit to your repository and have changes tracked</p></li>
-<li><p>Press commit ![]{screenshot_git_2.png} ##</p></li>
-<li><p>You should now be in the staging area</p></li>
+<li><p>Press commit <img data-src="2_screenshot_git.png"></p></li>
+</ol>
+</section>
+<section id="your-first-commit-1" class="slide level2">
+<h2>2.2.2 Your First Commit</h2>
+<p>You should now be in the staging area</p>
+<ol start="4" type="1">
 <li><p>Write a commit message (brief message, in present tense)</p></li>
 <li><p>Press commit</p></li>
 </ol>
-</section>
-<section id="branches" class="slide level2">
-<h2>3. Branches</h2>
-</section>
-<section id="merge-conflicts" class="slide level2">
-<h2>4. Merge Conflicts</h2>
+
+<img data-src="3_screenshot_commit.png" class="r-stretch"></section>
+<section id="your-first-commit-2" class="slide level2">
+<h2>2.2.3 Your First Commit</h2>
+<ol start="6" type="1">
+<li>Click on the changes tab in the top left to see a list of your commits and the changes</li>
+</ol>
+<p>Don’t commit too regularly or this changes tab will loses all value.</p>
+<p>Don’t commit to infrequently or using git loses value</p>
+
+<img data-src="4_screenshot_changes.png" class="r-stretch"></section>
+<section id="reverting-to-a-previous-commit" class="slide level2">
+<h2>2.3.1 Reverting to a previous commit</h2>
+<p><strong>THIS IS IRREVERSIBLE</strong></p>
+<ol type="1">
+<li>Go to the terminal tab in the relevant RStudio pane</li>
+</ol>
+<p>2a) Type “git reset –hard HEAD^” <em>without the quotation marks</em></p>
+<p>This takes you back one commit.</p>
+<p>Where possible just use the <em>undo</em> button</p>
 </section></section>
+<section id="branches" class="title-slide slide level1 center">
+<h1>3. Branches</h1>
+
+</section>
+
+<section id="merge-conflicts" class="title-slide slide level1 center">
+<h1>4. Merge Conflicts</h1>
+
+</section>
+
 <section>
 <section id="other-resources" class="title-slide slide level1 center">
 <h1>5. Other Resources:</h1>
