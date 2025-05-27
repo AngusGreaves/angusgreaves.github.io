@@ -162,8 +162,6 @@ If cooler heads have prevailed- keep reading
 
 ## 4.2.2 Merging with Conflicts
 
-My colour favourite is blue
-
 # 5. Putting Projects onto Github
 
 # 6. Other Resources:
@@ -175,3 +173,8 @@ https://happygitwithr.com/
 ### 6.2: Video tutorial of these slides:
 
 https://www.youtube.com/watch?v=njMEXGfUQG8&list=PLKBUk9FL4nBbeUfO-DBtkrhpQ79nZVrrG
+
+```{r}
+library(tidyverse)
+```
+
