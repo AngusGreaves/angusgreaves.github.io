@@ -175,6 +175,6 @@ https://happygitwithr.com/
 https://www.youtube.com/watch?v=njMEXGfUQG8&list=PLKBUk9FL4nBbeUfO-DBtkrhpQ79nZVrrG
 
 ```{r}
-library(tidyverse)
+library(dpylr)
 ```
 
