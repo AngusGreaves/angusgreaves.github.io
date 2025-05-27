@@ -19,7 +19,13 @@
 }
 
 /* Target the dropdown header text */
-li.dropdown-header {
+.dropdown-header {
+  color: white !important;      /* your desired color */
+  text-transform: none !important; /* remove uppercase */
+}
+
+/* Target the dropdown links text */
+.dropdown-item {
   color: white !important;      /* your desired color */
   text-transform: none !important; /* remove uppercase */
 }

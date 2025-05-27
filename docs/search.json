@@ -46,28 +46,28 @@
     "href": "Git Slides/Git in RStudio.html#is-git-installed",
     "title": "Git in RStudio",
     "section": "1.1 Is Git Installed?",
-    "text": "1.1 Is Git Installed?\n\nOpen RStudio\nClick on the “Terminal”\nType “which git”\n\nIf Git is already installed you will get a directory outputted\nIf Git is not installed (and you are a Mac user) type “git config” into terminal and follow prompts"
+    "text": "1.1 Is Git Installed?\n\nOpen RStudio\nClick on the Terminal tab\nType which git\n\nIf Git is already installed you will get a directory outputted\nIf Git is not installed (and you are a Mac user) type “git config” into terminal and follow prompts"
   },
   {
     "objectID": "Git Slides/Git in RStudio.html#configuration-within-r",
     "href": "Git Slides/Git in RStudio.html#configuration-within-r",
     "title": "Git in RStudio",
     "section": "1.2 Configuration (within R)",
-    "text": "1.2 Configuration (within R)\nComputer scientists (and so most internet tutorials) do configuration of Git in the console.\nBut you can do it in R!\n\nlibrary(usethis)\nuse_git_config(user.name = \"Your Name\",\n               user.email = \"your@email.com\")\n\nIf you already have a git/github account make sure you use the same login details"
+    "text": "1.2 Configuration (within R)\nComputer scientists (and so most internet tutorials) do configuration of Git in the console.\nBut you can do it in R!\n\nlibrary(usethis)\nuse_git_config(user.name = \"Angus\",\n               user.email = \"angus@greavesfamily.org\")\n\nIf you already have a git/github account make sure you use the same login details"
   },
   {
     "objectID": "Git Slides/Git in RStudio.html#enabling-git-on-a-project",
     "href": "Git Slides/Git in RStudio.html#enabling-git-on-a-project",
     "title": "Git in RStudio",
-    "section": "2.1 Enabling Git on a Project",
-    "text": "2.1 Enabling Git on a Project\nWarning: will restart RStudio\nTools &gt; Project Options &gt; Git/SVN Select Git as your “version control system”"
+    "section": "2.1.1 Enabling Git on a Project",
+    "text": "2.1.1 Enabling Git on a Project\nWarning: will restart RStudio\nTools &gt; Project Options &gt; Git/SVN Select Git as your “version control system”"
   },
   {
     "objectID": "Git Slides/Git in RStudio.html#your-first-commit",
     "href": "Git Slides/Git in RStudio.html#your-first-commit",
     "title": "Git in RStudio",
-    "section": "2.2 Your First Commit",
-    "text": "2.2 Your First Commit\n\nOne of the panes in R studio will have a git header (I have no idea which one as I moved mine from default); click on the git header.\nClick on the white boxes next to the items you wish to commit to your repository and have changes tracked\nPress commit ![]{screenshot_git_2.png} ##\nYou should now be in the staging area\nWrite a commit message (brief message, in present tense)\nPress commit"
+    "section": "2.2.1 Your First Commit",
+    "text": "2.2.1 Your First Commit\n\nOne of the panes in R studio will have a git header (I have no idea which one as I moved mine from default); click on the git header.\nClick on the white boxes next to the items you wish to commit to your repository and have changes tracked\nPress commit\n\nSee screenshot on next slide"
   },
   {
     "objectID": "Git Slides/Git in RStudio.html#branches",
@@ -82,5 +82,257 @@
     "title": "Git in RStudio",
     "section": "4. Merge Conflicts",
     "text": "4. Merge Conflicts"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#insert-title",
+    "href": "Git Slides/Git in RStudio.html#insert-title",
+    "title": "Git in RStudio",
+    "section": "Insert title",
+    "text": "Insert title\n\nYou should now be in the staging area\nWrite a commit message (brief message, in present tense)\nPress commit"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#your-first-commit-1",
+    "href": "Git Slides/Git in RStudio.html#your-first-commit-1",
+    "title": "Git in RStudio",
+    "section": "2.2.2 Your First Commit",
+    "text": "2.2.2 Your First Commit"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#your-first-commit-2",
+    "href": "Git Slides/Git in RStudio.html#your-first-commit-2",
+    "title": "Git in RStudio",
+    "section": "2.2.3 Your First Commit",
+    "text": "2.2.3 Your First Commit\nYou should now be in the staging area\n\nWrite a commit message (brief message, in present tense)\nPress commit\n\nSee screnshot on next slide"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#reverting-to-a-previous-commit",
+    "href": "Git Slides/Git in RStudio.html#reverting-to-a-previous-commit",
+    "title": "Git in RStudio",
+    "section": "2.3.1 Reverting to a previous commit",
+    "text": "2.3.1 Reverting to a previous commit\nTHIS IS IRREVERSIBLE\n\nGo to the terminal tab in the relevant RStudio pane\n\n2a) Type “git reset –hard HEAD^”\nThis takes you back one commit.\nWhere possible just use the undo button"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#your-first-commit-3",
+    "href": "Git Slides/Git in RStudio.html#your-first-commit-3",
+    "title": "Git in RStudio",
+    "section": "2.2.4 Your First Commit",
+    "text": "2.2.4 Your First Commit"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#your-first-commit-4",
+    "href": "Git Slides/Git in RStudio.html#your-first-commit-4",
+    "title": "Git in RStudio",
+    "section": "2.2.5 Your First Commit",
+    "text": "2.2.5 Your First Commit\n\nClick on the changes tab in the top left to see a list of your commits and the changes"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#your-first-commit-5",
+    "href": "Git Slides/Git in RStudio.html#your-first-commit-5",
+    "title": "Git in RStudio",
+    "section": "2.2.6 Your First Commit",
+    "text": "2.2.6 Your First Commit\nDon’t commit too regularly or this changes tab will loses all value.\nDon’t commit to infrequently or using git loses value"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#your-first-branch",
+    "href": "Git Slides/Git in RStudio.html#your-first-branch",
+    "title": "Git in RStudio",
+    "section": "3.1.1 Your First Branch",
+    "text": "3.1.1 Your First Branch\n\nPress on the git header\nClick the purple branch button (1) and name your new branch"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#your-first-branch-1",
+    "href": "Git Slides/Git in RStudio.html#your-first-branch-1",
+    "title": "Git in RStudio",
+    "section": "3.1.2 Your First Branch",
+    "text": "3.1.2 Your First Branch\n\nNow, you can edit the content without altering the orginial branch\nMake some changes to the files in this branch\nCommit these changes"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#your-first-branch-2",
+    "href": "Git Slides/Git in RStudio.html#your-first-branch-2",
+    "title": "Git in RStudio",
+    "section": "3.1.3 Your First Branch",
+    "text": "3.1.3 Your First Branch\n\nClick on the downward arrow/name of branch (2) to move between branches- switch to the main branch\nCreate a new file and insert anything\nCommit these changes"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#your-first-branch-3",
+    "href": "Git Slides/Git in RStudio.html#your-first-branch-3",
+    "title": "Git in RStudio",
+    "section": "3.1.4 Your First Branch",
+    "text": "3.1.4 Your First Branch\nIn the commit window you can switch between branches in the top left, and see changes that have been made"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#merging-without-conflicts",
+    "href": "Git Slides/Git in RStudio.html#merging-without-conflicts",
+    "title": "Git in RStudio",
+    "section": "4.1.1 Merging without Conflicts",
+    "text": "4.1.1 Merging without Conflicts\n\nWhen merging you want to start in the branch you are merging into\nGo to the terminal tab within RStudio\nType git merge branch_name –message “your message”\n\nMessage is not strictly needed but avoids RStudio being an arsehole\nReplace “your message” with your message"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#merging-without-conflicts-1",
+    "href": "Git Slides/Git in RStudio.html#merging-without-conflicts-1",
+    "title": "Git in RStudio",
+    "section": "4.1.2 Merging without Conflicts",
+    "text": "4.1.2 Merging without Conflicts\nIf you go to the commit tab you can see your merge!"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#merging-with-conflicts",
+    "href": "Git Slides/Git in RStudio.html#merging-with-conflicts",
+    "title": "Git in RStudio",
+    "section": "4.2.1 Merging with Conflicts",
+    "text": "4.2.1 Merging with Conflicts\nFirst: If you start a commit, get a conflict message, panic, and want to stop the commit type git merge –abort into the terminal pane withon RStudio.\nIf cooler heads have prevailed- keep reading"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#merging-without-conflicts-2",
+    "href": "Git Slides/Git in RStudio.html#merging-without-conflicts-2",
+    "title": "Git in RStudio",
+    "section": "4.1.3 Merging without Conflicts",
+    "text": "4.1.3 Merging without Conflicts\n\nIt is common practice to now delete the unneeded branch by going to the terminal and type git branch -d branch_name"
+  },
+  {
+    "objectID": "Git Slides/Git in RStudio.html#merging-with-conflicts-1",
+    "href": "Git Slides/Git in RStudio.html#merging-with-conflicts-1",
+    "title": "Git in RStudio",
+    "section": "4.2.2 Merging with Conflicts",
+    "text": "4.2.2 Merging with Conflicts\nMy favourite is blue"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html",
+    "href": "git_slides/Git_in_RStudio.html",
+    "title": "Git in RStudio",
+    "section": "",
+    "text": "Open RStudio\nClick on the Terminal tab\nType which git\n\nIf Git is already installed you will get a directory outputted\nIf Git is not installed (and you are a Mac user) type “git config” into terminal and follow prompts\n\n\n\nComputer scientists (and so most internet tutorials) do configuration of Git in the console.\nBut you can do it in R!\n\nlibrary(usethis)\nuse_git_config(user.name = \"Angus\",\n               user.email = \"angus@greavesfamily.org\")\n\nIf you already have a git/github account make sure you use the same login details"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#is-git-installed",
+    "href": "git_slides/Git_in_RStudio.html#is-git-installed",
+    "title": "Git in RStudio",
+    "section": "1.1 Is Git Installed?",
+    "text": "1.1 Is Git Installed?\n\nOpen RStudio\nClick on the Terminal tab\nType which git\n\nIf Git is already installed you will get a directory outputted\nIf Git is not installed (and you are a Mac user) type “git config” into terminal and follow prompts"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#configuration-within-r",
+    "href": "git_slides/Git_in_RStudio.html#configuration-within-r",
+    "title": "Git in RStudio",
+    "section": "1.2 Configuration (within R)",
+    "text": "1.2 Configuration (within R)\nComputer scientists (and so most internet tutorials) do configuration of Git in the console.\nBut you can do it in R!\n\nlibrary(usethis)\nuse_git_config(user.name = \"Angus\",\n               user.email = \"angus@greavesfamily.org\")\n\nIf you already have a git/github account make sure you use the same login details"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#enabling-git-on-a-project",
+    "href": "git_slides/Git_in_RStudio.html#enabling-git-on-a-project",
+    "title": "Git in RStudio",
+    "section": "2.1.1 Enabling Git on a Project",
+    "text": "2.1.1 Enabling Git on a Project\nWarning: will restart RStudio\nTools &gt; Project Options &gt; Git/SVN Select Git as your “version control system”"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#your-first-commit",
+    "href": "git_slides/Git_in_RStudio.html#your-first-commit",
+    "title": "Git in RStudio",
+    "section": "2.2.1 Your First Commit",
+    "text": "2.2.1 Your First Commit\n\nOne of the panes in R studio will have a git header (I have no idea which one as I moved mine from default); click on the git header.\nClick on the white boxes next to the items you wish to commit to your repository and have changes tracked\nPress commit\n\nSee screenshot on next slide"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#your-first-commit-1",
+    "href": "git_slides/Git_in_RStudio.html#your-first-commit-1",
+    "title": "Git in RStudio",
+    "section": "2.2.2 Your First Commit",
+    "text": "2.2.2 Your First Commit"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#your-first-commit-2",
+    "href": "git_slides/Git_in_RStudio.html#your-first-commit-2",
+    "title": "Git in RStudio",
+    "section": "2.2.3 Your First Commit",
+    "text": "2.2.3 Your First Commit\nYou should now be in the staging area\n\nWrite a commit message (brief message, in present tense)\nPress commit\n\nSee screnshot on next slide"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#your-first-commit-3",
+    "href": "git_slides/Git_in_RStudio.html#your-first-commit-3",
+    "title": "Git in RStudio",
+    "section": "2.2.4 Your First Commit",
+    "text": "2.2.4 Your First Commit"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#your-first-commit-4",
+    "href": "git_slides/Git_in_RStudio.html#your-first-commit-4",
+    "title": "Git in RStudio",
+    "section": "2.2.5 Your First Commit",
+    "text": "2.2.5 Your First Commit\n\nClick on the changes tab in the top left to see a list of your commits and the changes"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#your-first-commit-5",
+    "href": "git_slides/Git_in_RStudio.html#your-first-commit-5",
+    "title": "Git in RStudio",
+    "section": "2.2.6 Your First Commit",
+    "text": "2.2.6 Your First Commit\nDon’t commit too regularly or this changes tab will loses all value.\nDon’t commit to infrequently or using git loses value"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#reverting-to-a-previous-commit",
+    "href": "git_slides/Git_in_RStudio.html#reverting-to-a-previous-commit",
+    "title": "Git in RStudio",
+    "section": "2.3.1 Reverting to a previous commit",
+    "text": "2.3.1 Reverting to a previous commit\nTHIS IS IRREVERSIBLE\n\nGo to the terminal tab in the relevant RStudio pane\n\n2a) Type “git reset –hard HEAD^”\nThis takes you back one commit.\nWhere possible just use the undo button"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#your-first-branch",
+    "href": "git_slides/Git_in_RStudio.html#your-first-branch",
+    "title": "Git in RStudio",
+    "section": "3.1.1 Your First Branch",
+    "text": "3.1.1 Your First Branch\n\nPress on the git header\nClick the purple branch button (1) and name your new branch"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#your-first-branch-1",
+    "href": "git_slides/Git_in_RStudio.html#your-first-branch-1",
+    "title": "Git in RStudio",
+    "section": "3.1.2 Your First Branch",
+    "text": "3.1.2 Your First Branch\n\nNow, you can edit the content without altering the orginial branch\nMake some changes to the files in this branch\nCommit these changes"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#your-first-branch-2",
+    "href": "git_slides/Git_in_RStudio.html#your-first-branch-2",
+    "title": "Git in RStudio",
+    "section": "3.1.3 Your First Branch",
+    "text": "3.1.3 Your First Branch\n\nClick on the downward arrow/name of branch (2) to move between branches- switch to the main branch\nCreate a new file and insert anything\nCommit these changes"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#your-first-branch-3",
+    "href": "git_slides/Git_in_RStudio.html#your-first-branch-3",
+    "title": "Git in RStudio",
+    "section": "3.1.4 Your First Branch",
+    "text": "3.1.4 Your First Branch\nIn the commit window you can switch between branches in the top left, and see changes that have been made"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#merging-without-conflicts",
+    "href": "git_slides/Git_in_RStudio.html#merging-without-conflicts",
+    "title": "Git in RStudio",
+    "section": "4.1.1 Merging without Conflicts",
+    "text": "4.1.1 Merging without Conflicts\n\nWhen merging you want to start in the branch you are merging into\nGo to the terminal tab within RStudio\nType git merge branch_name –message “your message”\n\nMessage is not strictly needed but avoids RStudio being an arsehole\nReplace “your message” with your message"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#merging-without-conflicts-1",
+    "href": "git_slides/Git_in_RStudio.html#merging-without-conflicts-1",
+    "title": "Git in RStudio",
+    "section": "4.1.2 Merging without Conflicts",
+    "text": "4.1.2 Merging without Conflicts\nIf you go to the commit tab you can see your merge!"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#merging-without-conflicts-2",
+    "href": "git_slides/Git_in_RStudio.html#merging-without-conflicts-2",
+    "title": "Git in RStudio",
+    "section": "4.1.3 Merging without Conflicts",
+    "text": "4.1.3 Merging without Conflicts\n\nIt is common practice to now delete the unneeded branch by going to the terminal and type git branch -d branch_name"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#merging-with-conflicts",
+    "href": "git_slides/Git_in_RStudio.html#merging-with-conflicts",
+    "title": "Git in RStudio",
+    "section": "4.2.1 Merging with Conflicts",
+    "text": "4.2.1 Merging with Conflicts\nFirst: If you start a commit, get a conflict message, panic, and want to stop the commit type git merge –abort into the terminal pane within RStudio.\nIf cooler heads have prevailed- keep reading"
+  },
+  {
+    "objectID": "git_slides/Git_in_RStudio.html#merging-with-conflicts-1",
+    "href": "git_slides/Git_in_RStudio.html#merging-with-conflicts-1",
+    "title": "Git in RStudio",
+    "section": "4.2.2 Merging with Conflicts",
+    "text": "4.2.2 Merging with Conflicts\nI couldn’t get the problem to replicate- just watch the video\nhttps://www.youtube.com/watch?v=C_6LiLfyAh8&list=PLKBUk9FL4nBbeUfO-DBtkrhpQ79nZVrrG&index=3"
   }
 ]
