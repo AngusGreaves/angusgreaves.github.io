@@ -42,22 +42,27 @@ Warning: will restart RStudio
 
 Tools \> Project Options \> Git/SVN Select Git as your "version control system"
 
-![](screenshot_git_1.png)
+![](1_screenshot_git.png)
 
-## 2.2 Your First Commit
+## 2.2.1: Your First Commit
 
 1)  One of the panes in R studio will have a git header (I have no idea which one as I moved mine from default); click on the git header.
 
 2)  Click on the white boxes next to the items you wish to commit to your repository and have changes tracked
 
 3) Press commit
-![]{screenshot_git_2.png}
-## 
-3) You should now be in the staging area
+![](2_screenshot_git.png)
+
+## 2.2.2: Your First Commit
+
+You should now be in the staging area
 
 4) Write a commit message (brief message, in present tense)
 
 5) Press commit
+
+![](3_screenshot_commit)
+
 
 ## 3. Branches
 
