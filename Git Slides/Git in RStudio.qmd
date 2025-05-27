@@ -12,9 +12,9 @@ execute:
 
 1)  Open RStudio
 
-2)  Click on the "Terminal"
+2)  Click on the Terminal tab
 
-3)  Type "which git"
+3)  Type *which git*
 
 If Git is already installed you will get a directory outputted
 
@@ -28,15 +28,15 @@ But you can do it in R!
 
 ```{r}
 library(usethis)
-use_git_config(user.name = "Your Name",
-               user.email = "your@email.com")
+use_git_config(user.name = "Angus",
+               user.email = "angus@greavesfamily.org")
 ```
 
 If you already have a git/github account make sure you use the same login details
 
 # 2. Git & R Studio Basics
 
-## 2.1 Enabling Git on a Project
+## 2.1.1 Enabling Git on a Project
 
 Warning: will restart RStudio
 
@@ -44,36 +44,134 @@ Tools \> Project Options \> Git/SVN Select Git as your "version control system"
 
 ![](1_screenshot_git.png)
 
-## 2.2.1: Your First Commit
+## 2.2.1 Your First Commit
 
 1)  One of the panes in R studio will have a git header (I have no idea which one as I moved mine from default); click on the git header.
 
 2)  Click on the white boxes next to the items you wish to commit to your repository and have changes tracked
 
-3) Press commit
+3)  Press commit 
+
+See screenshot on next slide
+
+## 2.2.2 Your First Commit
 ![](2_screenshot_git.png)
 
-## 2.2.2: Your First Commit
+## 2.2.3 Your First Commit
 
 You should now be in the staging area
 
-4) Write a commit message (brief message, in present tense)
+4)  Write a commit message (brief message, in present tense)
 
-5) Press commit
+5)  Press commit
 
+See screnshot on next slide
+
+## 2.2.4 Your First Commit
 ![](3_screenshot_commit)
 
+## 2.2.5 Your First Commit
 
-## 3. Branches
+6)  Click on the changes tab in the top left to see a list of your commits and the changes
 
-## 4. Merge Conflicts
+![](4_screenshot_changes)
 
-# 5. Other Resources:
+## 2.2.6 Your First Commit
 
-### 5.1 More information:
+Don't commit too regularly or this changes tab will loses all value.
+
+Don't commit to infrequently or using git loses value
+
+## 2.3.1 Reverting to a previous commit
+
+**THIS IS IRREVERSIBLE**
+
+1)  Go to the terminal tab in the relevant RStudio pane
+
+2a) Type *"git reset --hard HEAD\^"*
+
+This takes you back one commit.
+
+Where possible just use the *undo* button
+
+# 3. Branches
+
+Not sure if you will want to keep your changes? Make a branch!
+
+## 3.1.1 Your First Branch
+
+1)  Press on the git header
+2)  Click the purple branch button (1) and name your new branch
+
+![](5_screenshot_branch)
+
+## 3.1.2 Your First Branch
+
+3)  Now, you can edit the content without altering the orginial branch
+
+4)  Make some changes to the files in this branch
+
+5)  Commit these changes
+
+## 3.1.3 Your First Branch
+
+6)  Click on the downward arrow/name of branch (2) to move between branches- switch to the main branch
+
+7)  Create a new file and insert anything
+
+8)  Commit these changes
+
+![](5_screenshot_branch)
+
+## 3.1.4 Your First Branch
+
+In the commit window you can switch between branches in the top left, and see changes that have been made
+
+![](6_screenshot_branchcommit)
+
+# 4. Merging Branches
+
+Next we will see how to merge an edited branch with the original branch
+
+CAUTION: avoid editing the same file in two different branches or you will get a conflict
+
+## 4.1.1 Merging without Conflicts
+
+1)  When merging you want to start in the branch you are merging into
+
+2)  Go to the terminal tab within RStudio
+
+3)  Type *git merge branch_name --message "your message"*
+
+    1)  Message is not strictly needed but avoids RStudio being an arsehole
+
+    2)  Replace "your message" with your message
+
+## 4.1.2 Merging without Conflicts 
+If you go to the commit tab you can see your merge!
+![](7_screenshot_merge)
+
+
+## 4.1.3 Merging without Conflicts
+4) It is common practice to now delete the unneeded branch by going to the terminal and type *git branch -d branch_name*
+
+## 4.2.1 Merging with Conflicts
+First: If you start a commit, get a conflict message, panic, and want to stop the commit type *git merge --abort* into the terminal pane withon RStudio.
+
+If cooler heads have prevailed- keep reading
+
+## 4.2.2 Merging with Conflicts
+
+My colour favourite is blue
+
+# 5. Putting Projects onto Github
+
+# 6. Other Resources:
+
+### 6.1 More information:
 
 https://happygitwithr.com/
 
-### 5.2: Video tutorial of these slides:
+### 6.2: Video tutorial of these slides:
 
 https://www.youtube.com/watch?v=njMEXGfUQG8&list=PLKBUk9FL4nBbeUfO-DBtkrhpQ79nZVrrG
