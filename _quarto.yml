@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: " Angus Greaves"
+  title: "Angus Greaves"
   twitter-card: true # some info is included when site is in a tweet (can customise)
   favicon: logo_black.png # logo for browser tabs 
   image: "logo_navbar.png"
