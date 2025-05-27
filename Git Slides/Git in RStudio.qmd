@@ -156,25 +156,20 @@ If you go to the commit tab you can see your merge!
 4) It is common practice to now delete the unneeded branch by going to the terminal and type *git branch -d branch_name*
 
 ## 4.2.1 Merging with Conflicts
-First: If you start a commit, get a conflict message, panic, and want to stop the commit type *git merge --abort* into the terminal pane withon RStudio.
+
+First: If you start a commit, get a conflict message, panic, and want to stop the commit type *git merge --abort* into the terminal pane within RStudio.
 
 If cooler heads have prevailed- keep reading
 
 ## 4.2.2 Merging with Conflicts
+I couldn't get the problem to replicate- just watch the video
+
+https://www.youtube.com/watch?v=C_6LiLfyAh8&list=PLKBUk9FL4nBbeUfO-DBtkrhpQ79nZVrrG&index=3
 
 # 5. Putting Projects onto Github
 
-# 6. Other Resources:
-
-### 6.1 More information:
-
-https://happygitwithr.com/
-
-### 6.2: Video tutorial of these slides:
+# 6. References:
 
 https://www.youtube.com/watch?v=njMEXGfUQG8&list=PLKBUk9FL4nBbeUfO-DBtkrhpQ79nZVrrG
 
-```{r}
-library(dpylr)
-```
-
+https://happygitwithr.com/

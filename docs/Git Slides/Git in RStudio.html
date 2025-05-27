@@ -219,8 +219,8 @@ Angus Greaves
 <h2>1.1 Is Git Installed?</h2>
 <ol type="1">
 <li><p>Open RStudio</p></li>
-<li><p>Click on the “Terminal”</p></li>
-<li><p>Type “which git”</p></li>
+<li><p>Click on the Terminal tab</p></li>
+<li><p>Type <em>which git</em></p></li>
 </ol>
 <p>If Git is already installed you will get a directory outputted</p>
 <p>If Git is not installed (and you are a Mac user) type “git config” into terminal and follow prompts</p>
@@ -231,8 +231,8 @@ Angus Greaves
 <p>But you can do it in R!</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(usethis)</span>
-<span id="cb1-2"><a></a><span class="fu">use_git_config</span>(<span class="at">user.name =</span> <span class="st">"Your Name"</span>,</span>
-<span id="cb1-3"><a></a>               <span class="at">user.email =</span> <span class="st">"your@email.com"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a></a><span class="fu">use_git_config</span>(<span class="at">user.name =</span> <span class="st">"Angus"</span>,</span>
+<span id="cb1-3"><a></a>               <span class="at">user.email =</span> <span class="st">"angus@greavesfamily.org"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>If you already have a git/github account make sure you use the same login details</p>
 </section></section>
@@ -252,55 +252,134 @@ Angus Greaves
 <ol type="1">
 <li><p>One of the panes in R studio will have a git header (I have no idea which one as I moved mine from default); click on the git header.</p></li>
 <li><p>Click on the white boxes next to the items you wish to commit to your repository and have changes tracked</p></li>
-<li><p>Press commit <img data-src="2_screenshot_git.png"></p></li>
+<li><p>Press commit</p></li>
 </ol>
+<p>See screenshot on next slide</p>
 </section>
 <section id="your-first-commit-1" class="slide level2">
 <h2>2.2.2 Your First Commit</h2>
+
+<img data-src="2_screenshot_git.png" class="r-stretch"></section>
+<section id="your-first-commit-2" class="slide level2">
+<h2>2.2.3 Your First Commit</h2>
 <p>You should now be in the staging area</p>
 <ol start="4" type="1">
 <li><p>Write a commit message (brief message, in present tense)</p></li>
 <li><p>Press commit</p></li>
 </ol>
+<p>See screnshot on next slide</p>
+</section>
+<section id="your-first-commit-3" class="slide level2">
+<h2>2.2.4 Your First Commit</h2>
 
 <img data-src="3_screenshot_commit.png" class="r-stretch"></section>
-<section id="your-first-commit-2" class="slide level2">
-<h2>2.2.3 Your First Commit</h2>
+<section id="your-first-commit-4" class="slide level2">
+<h2>2.2.5 Your First Commit</h2>
 <ol start="6" type="1">
 <li>Click on the changes tab in the top left to see a list of your commits and the changes</li>
 </ol>
-<p>Don’t commit too regularly or this changes tab will loses all value.</p>
-<p>Don’t commit to infrequently or using git loses value</p>
 
 <img data-src="4_screenshot_changes.png" class="r-stretch"></section>
+<section id="your-first-commit-5" class="slide level2">
+<h2>2.2.6 Your First Commit</h2>
+<p>Don’t commit too regularly or this changes tab will loses all value.</p>
+<p>Don’t commit to infrequently or using git loses value</p>
+</section>
 <section id="reverting-to-a-previous-commit" class="slide level2">
 <h2>2.3.1 Reverting to a previous commit</h2>
 <p><strong>THIS IS IRREVERSIBLE</strong></p>
 <ol type="1">
 <li>Go to the terminal tab in the relevant RStudio pane</li>
 </ol>
-<p>2a) Type “git reset –hard HEAD^” <em>without the quotation marks</em></p>
+<p>2a) Type <em>“git reset –hard HEAD^”</em></p>
 <p>This takes you back one commit.</p>
 <p>Where possible just use the <em>undo</em> button</p>
 </section></section>
+<section>
 <section id="branches" class="title-slide slide level1 center">
 <h1>3. Branches</h1>
-
+<p>Not sure if you will want to keep your changes? Make a branch!</p>
 </section>
+<section id="your-first-branch" class="slide level2">
+<h2>3.1.1 Your First Branch</h2>
+<ol type="1">
+<li>Press on the git header</li>
+<li>Click the purple branch button (1) and name your new branch</li>
+</ol>
 
-<section id="merge-conflicts" class="title-slide slide level1 center">
-<h1>4. Merge Conflicts</h1>
+<img data-src="5_screenshot_branch.png" class="r-stretch"></section>
+<section id="your-first-branch-1" class="slide level2">
+<h2>3.1.2 Your First Branch</h2>
+<ol start="3" type="1">
+<li><p>Now, you can edit the content without altering the orginial branch</p></li>
+<li><p>Make some changes to the files in this branch</p></li>
+<li><p>Commit these changes</p></li>
+</ol>
+</section>
+<section id="your-first-branch-2" class="slide level2">
+<h2>3.1.3 Your First Branch</h2>
+<ol start="6" type="1">
+<li><p>Click on the downward arrow/name of branch (2) to move between branches- switch to the main branch</p></li>
+<li><p>Create a new file and insert anything</p></li>
+<li><p>Commit these changes</p></li>
+</ol>
+
+<img data-src="5_screenshot_branch.png" class="r-stretch"></section>
+<section id="your-first-branch-3" class="slide level2">
+<h2>3.1.4 Your First Branch</h2>
+<p>In the commit window you can switch between branches in the top left, and see changes that have been made</p>
+
+<img data-src="6_screenshot_branchcommit.png" class="r-stretch"></section></section>
+<section>
+<section id="merging-branches" class="title-slide slide level1 center">
+<h1>4. Merging Branches</h1>
+<p>Next we will see how to merge an edited branch with the original branch</p>
+<p>CAUTION: avoid editing the same file in two different branches or you will get a conflict</p>
+</section>
+<section id="merging-without-conflicts" class="slide level2">
+<h2>4.1.1 Merging without Conflicts</h2>
+<ol type="1">
+<li><p>When merging you want to start in the branch you are merging into</p></li>
+<li><p>Go to the terminal tab within RStudio</p></li>
+<li><p>Type <em>git merge branch_name –message “your message”</em></p>
+<ol type="1">
+<li><p>Message is not strictly needed but avoids RStudio being an arsehole</p></li>
+<li><p>Replace “your message” with your message</p></li>
+</ol></li>
+</ol>
+</section>
+<section id="merging-without-conflicts-1" class="slide level2">
+<h2>4.1.2 Merging without Conflicts</h2>
+<p>If you go to the commit tab you can see your merge! <img data-src="7_screenshot_merge.png"></p>
+</section>
+<section id="merging-without-conflicts-2" class="slide level2">
+<h2>4.1.3 Merging without Conflicts</h2>
+<ol start="4" type="1">
+<li>It is common practice to now delete the unneeded branch by going to the terminal and type <em>git branch -d branch_name</em></li>
+</ol>
+</section>
+<section id="merging-with-conflicts" class="slide level2">
+<h2>4.2.1 Merging with Conflicts</h2>
+<p>First: If you start a commit, get a conflict message, panic, and want to stop the commit type <em>git merge –abort</em> into the terminal pane withon RStudio.</p>
+<p>If cooler heads have prevailed- keep reading</p>
+</section>
+<section id="merging-with-conflicts-1" class="slide level2">
+<h2>4.2.2 Merging with Conflicts</h2>
+<p>My favourite is blue</p>
+</section></section>
+<section id="putting-projects-onto-github" class="title-slide slide level1 center">
+<h1>5. Putting Projects onto Github</h1>
 
 </section>
 
 <section>
 <section id="other-resources" class="title-slide slide level1 center">
-<h1>5. Other Resources:</h1>
+<h1>6. Other Resources:</h1>
 
 </section>
-<h3 id="more-information">5.1 More information:</h3>
+<h3 id="more-information">6.1 More information:</h3>
 <p>https://happygitwithr.com/</p>
-<h3 id="video-tutorial-of-these-slides">5.2: Video tutorial of these slides:</h3>
+<h3 id="video-tutorial-of-these-slides">6.2: Video tutorial of these slides:</h3>
 <p>https://www.youtube.com/watch?v=njMEXGfUQG8&amp;list=PLKBUk9FL4nBbeUfO-DBtkrhpQ79nZVrrG</p>
 
 </section>
